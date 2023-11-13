@@ -8,4 +8,6 @@
 ``sudo apt update``  
 ``pip install selenium webdriver-manager``  
 
-Укажите в переменной ``tor_browser_storage_location`` место хранения TOR BROWSER
+Укажите в переменной ``tor_browser_storage_location`` место хранения TOR BROWSER  
+Найдите в папке с TOR BROWSER файл ``torrc`` и добавьте туда строку:
+``MaxCircuitDirtiness 60``
